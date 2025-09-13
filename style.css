@@ -12,3 +12,11 @@
     color: white;
     padding: 5px;
 }
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
