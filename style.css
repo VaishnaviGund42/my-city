@@ -25,3 +25,9 @@
     font-weight: bold;
     margin-left: 10px;
 }
+.footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #19183B;
+  color: white; 
+}
