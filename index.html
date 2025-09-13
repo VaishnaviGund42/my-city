@@ -4,19 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My city - Pandharpur</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header{
+  text-align: center;
+  color: #333;
+}
+.navbar{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #19183B;
+    color: white;
+    padding: 5px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.icon{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.paragraph{
+  font-size: 17px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 600px;
+  margin-right: 20px;
+ text-align: justify;
+}
+
+
+   
+  </style>
+ 
 </head>
 <body>
+  <div class="navbar">
+  <h2 class="icon">Pandharpur</h2>
   <nav class="navbar">
     <a href="./index.html">Home</a>
     <a href="./pages/about.html">About</a>
     <a href="./pages/places.html">Places</a>
     <a href="./pages/contact.html">Contact</a>
   </nav>
-  <h1>Welcome to Pandharpur Nagari</h1>
-  <img src="./pages/home.jpg" class="main-image" alt="Pandharpur City">
-  <p>Pandharpur is a city located in the Solapur district of Maharashtra </p>
+  </div>
 
+  <div class="container">
+    <div>
+      <h1 class="header">Welcome to Pandharpur</h1>
+      <p class="paragraph">Pandharpur is a holy city located in the Solapur district of Maharashtra, India. It is renowned for its rich cultural heritage and religious significance, particularly as a major pilgrimage site for devotees of Lord Vithoba (a form of Lord Krishna).
+      The city is famous for the Vitthal Rukmini Temple, which attracts millions of pilgrims every year, especially during the Ashadhi Ekadashi and Kartiki Ekadashi festivals. The temple's unique architecture and spiritual ambiance make it a must-visit destination for those seeking divine blessings.
+      Pandharpur is also known for its vibrant traditions, folk music, and dance forms like Bhajan and Kirtan, which are integral to the city's cultural fabric. The annual Wari pilgrimage, where devotees walk long distances to reach the temple, is a testament to the deep faith and devotion of the people.
+      In addition to its religious significance, Pandharpur offers a glimpse into rural life in Maharashtra, with its bustling markets, local cuisine, and warm hospitality. Visitors can explore nearby attractions such as the Chandrabhaga River and various other temples in the vicinity.
+      Overall, Pandharpur is a city that beautifully blends spirituality, culture, and tradition, making it a unique and enriching experience for all who visit.</p>
+    </div>
+    <div>
+     <img src="./pages/front1.webp" alt="Pandharpur">
+  </div>
   
 </body>
 </html>
